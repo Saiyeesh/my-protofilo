@@ -55,3 +55,56 @@
     margin-left: 10px;
     font-size: 13px;
 }
+
+
+
+@media (max-width: 768px) {
+    .experBack {
+        padding: 20px; /* Add padding for better spacing on mobile */
+    }
+
+    .experBack h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        text-align: center; /* Ensure text is centered */
+    }
+
+    .experBack p {
+        font-size: 16px; /* Adjust font size for better readability */
+        text-align: center;
+    }
+
+    .Exper {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center content */
+    }
+
+    .exp-box {
+        width: 90%; /* Ensure boxes fit within the mobile screen */
+        margin: 15px 0; /* Add vertical margin for spacing */
+    }
+
+    .ExperBox {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 10px; /* Reduce padding */
+        margin: 10px 0; /* Add vertical spacing */
+    }
+
+    .xml {
+        height: 40px; /* Reduce image size for mobile */
+        width: 40px;
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    .TxtExp h3 {
+        font-size: 18px; /* Adjust font size */
+        margin-left: 0; /* Remove unnecessary left margin */
+        text-align: center; /* Center-align the heading */
+    }
+
+    .TxtExp p {
+        font-size: 12px; /* Adjust font size for better readability */
+        margin-top: -8px; /* Adjust margin */
+        margin-left: 0; /* Remove unnecessary left margin */
+        text-align: center; /* Center-align the text */
+    }
+}

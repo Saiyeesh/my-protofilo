@@ -71,3 +71,58 @@
     gap: 10px;
     flex-wrap: wrap;
 }
+
+
+@media (max-width: 768px) {
+    .skillsBack {
+        padding: 20px; /* Add padding for spacing on mobile */
+    }
+
+    .skillsBack h1 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center-align heading */
+    }
+
+    .skillsBack p {
+        font-size: 14px; /* Adjust font size for readability */
+        text-align: center; /* Center-align the paragraph */
+        margin-top: 10px; /* Add margin for better spacing */
+    }
+
+    .skillsBox {
+        flex-direction: column; /* Stack the skill boxes vertically */
+        align-items: center; /* Center-align skill boxes */
+        justify-content: center; /* Center content */
+    }
+
+    .frontEnd {
+        width: 80%; /* Increase the width for better visibility on mobile */
+        margin: 15px 0; /* Adjust margin for spacing */
+        padding: 15px; /* Add more padding */
+    }
+
+    .frontEnd h1 {
+        font-size: 24px; /* Adjust font size for the skill title */
+    }
+
+    .box-1 {
+        width: 100%; /* Ensure boxes take full width */
+        padding: 10px; /* Add padding for better tap area */
+        font-size: 14px; /* Adjust font size inside the box */
+    }
+
+    .react-logo {
+        height: 15px; /* Reduce logo size */
+        padding-right: 8px; /* Adjust padding for logo */
+    }
+
+    .box-1 p {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+
+    .boxes {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center-align items */
+        gap: 15px; /* Adjust gap for better spacing */
+    }
+}

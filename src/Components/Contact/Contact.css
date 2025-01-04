@@ -83,3 +83,52 @@
     color: white;
 }
 
+
+
+
+@media (max-width: 768px) {
+    .contactMain {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .contactback h1 {
+        font-size: 30px; /* Reduce font size */
+        text-align: center; /* Ensure text remains centered */
+    }
+
+    .contactback p {
+        font-size: 16px; /* Adjust font size for readability */
+        text-align: center;
+    }
+
+    .contactBox {
+        width: 90%; /* Ensure the box fits within smaller screens */
+        padding: 15px; /* Adjust padding */
+        margin: 20px auto; /* Center and space boxes */
+    }
+
+    .contactBox h3 {
+        font-size: 20px; /* Adjust font size */
+        text-align: center; /* Center-align text */
+    }
+
+    .contactBox button {
+        width: 100%; /* Make the button full width */
+        height: 45px; /* Adjust height for better usability */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .InputBoxes {
+        width: 90%; /* Ensure input boxes fit within screen width */
+        height: 35px; /* Adjust height */
+        font-size: 14px; /* Adjust font size */
+        padding-left: 15px; /* Adjust padding */
+    }
+
+    .areaBox {
+        width: 90%; /* Adjust width */
+        height: 60px; /* Adjust height for text area */
+        font-size: 14px; /* Adjust font size */
+        padding-left: 15px; /* Adjust padding */
+    }
+}

@@ -43,3 +43,43 @@
     color: white;
     margin: 10px;
 }
+
+
+@media (max-width: 768px) {
+    .footerBack {
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .footerBack h2 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        padding-top: 5px; /* Reduce padding for a more compact layout */
+    }
+
+    .footerUls {
+        flex-direction: column;/* Stack the list items vertically */
+        align-items: center; /* Center align the list items */
+        margin-top: 15px; /* Add top margin for spacing */
+    }
+
+    .footerUls li {
+        font-size: 16px; /* Adjust font size for readability */
+        margin: 10px 0; /* Adjust vertical margin */
+        text-align: center; /* Ensure text is centered */
+    }
+
+    .footerLast {
+        font-size: 14px; /* Reduce font size for readability */
+        padding-bottom: 15px; /* Adjust padding for spacing */
+    }
+
+    .footer-logos {
+        flex-direction: row; /* Stack logos vertically */
+        margin-top: 10px; /* Add top margin for spacing */
+    }
+
+    .logos {
+        margin: 5px 0; /* Adjust margin for stacked layout */
+        font-size: 18px; /* Adjust logo size for mobile */
+        margin-right: 30px;
+    }
+}
