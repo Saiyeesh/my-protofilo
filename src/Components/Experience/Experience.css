@@ -1,0 +1,57 @@
+.experBack{
+    background-color: #222a35;
+    margin-top: -25px;
+}
+
+.experBack h1{
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+}
+
+.experBack p {
+    font-family: Roboto;
+    color: #9ea2a5;
+    text-align: center;
+}
+
+.Exper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ExperBox{
+    border: 1.7px solid rgb(133, 76, 230);
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: rgb(133, 76, 230) 2px 4px 10px;
+}
+
+.xml{
+    height: 50px;
+    width: 50px;
+}
+
+.TxtExp h3{
+    font-family: Roboto;
+    color: white;
+    margin-left: 10px;
+}
+
+.TxtExp p {
+    font-family: Roboto;
+    color: whitesmoke;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 13px;
+}

@@ -1,0 +1,61 @@
+.homeBack{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-image:linear-gradient(black, #222a35);
+}
+
+.firstPart h1{
+    font-family: Roboto;
+    font-size: 40px;
+    width: 200px;
+    color: white;
+}
+
+.firstPart h2{
+    font-family: Roboto;
+    font-size: 40px;
+    width: 310px;
+    margin-top: -15px;
+    color: white;
+}
+
+.firstPart h5{
+    font-family: Roboto;
+    font-size: 30px;
+    margin-top: -15px;
+    color: white;
+}
+
+.firstPart p {
+    font-family: Roboto;
+    font-size: 20px;
+    width: 600px;
+    margin-top: -25px;
+    color: #575c66;
+}
+
+.firstPart button{
+    background-image: linear-gradient(rgb(132, 0, 255) 3%, rgb(230, 0, 255) 100%);
+    box-shadow: rgb(31, 38, 52);
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    height: 40px;
+    font-weight: 600;
+}
+
+.profileImg{
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    border: 2.5px solid rgb(132, 0, 255);
+    box-shadow: 10px 10px 15px rgba(10, 20, 30, 0.5);
+}
+
+.spanTxt{
+    color: rgb(132, 0, 255);
+}

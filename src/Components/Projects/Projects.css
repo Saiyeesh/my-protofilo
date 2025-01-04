@@ -1,0 +1,134 @@
+.projectsBack{
+    background-image:linear-gradient(black, #222a35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsBack h3{
+    font-family: Roboto;
+    color: aliceblue;
+}
+
+.projectsBack p{
+    font-family: Roboto;
+    color: rgba(177, 178, 179, 0.6);
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.card1{
+   width: 20%;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   border-radius: 20px;
+   margin: 15px;
+}
+
+.card1:hover {
+    background-color: #333;
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+.imgsheet{
+    border-radius: 15px;
+}
+
+.cardDetails h5{
+    font-family: Roboto;
+    font-size: 25px;
+    color: rgb(177, 178, 179);
+}
+
+.cardDetails p{
+    font-family: Roboto;
+    color: rgba(177, 178, 179, 0.6);
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+.btn-part{
+    text-align: right;
+}
+
+.cardDetails button{
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(133, 76, 230);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: right;
+    cursor: pointer;
+}
+
+.imgsheet{
+    width: 280px;
+    height: 250px;
+}
+
+@media (max-width: 768px) {
+    .projectsBack {
+        padding: 20px; /* Add padding for better spacing on mobile */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center the content */
+    }
+
+    .projectsBack h3 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center-align the heading */
+    }
+
+    .projectsBack p {
+        font-size: 16px; /* Reduce font size for readability */
+        margin-top: 10px; /* Add margin for better spacing */
+        text-align: center; /* Center-align the paragraph */
+    }
+
+    .card1 {
+        width: 80%; /* Increase the card width for smaller screens */
+        margin: 15px 0; /* Adjust margin for better spacing */
+        padding: 15px; /* Add more padding */
+    }
+
+    .card1:hover {
+        transform: scale(1.02); /* Reduce scaling on hover for mobile */
+    }
+
+    .imgsheet {
+        width: 100%; /* Make the image fill the container */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 15px;
+    }
+
+    .cardDetails h5 {
+        font-size: 20px; /* Adjust font size for headings */
+    }
+
+    .cardDetails p {
+        font-size: 14px; /* Adjust font size for paragraph */
+        margin-top: -10px; /* Reduce the top margin */
+        text-align: center; /* Center-align the paragraph */
+    }
+
+    .btn-part {
+        text-align: center; /* Center-align button on mobile */
+        margin-top: 10px; /* Add some spacing */
+    }
+
+    .cardDetails button {
+        width: 100%; /* Make button fill the card width */
+        padding: 10px; /* Increase padding for better tap target */
+        font-size: 16px; /* Adjust button font size */
+        text-align: center; /* Center-align text */
+        margin-top: 10px; /* Add margin to the top */
+    }
+}

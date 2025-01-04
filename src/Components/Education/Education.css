@@ -1,0 +1,144 @@
+.educationBack{
+    background-image:linear-gradient(black, #222a35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.educationBack h1{
+    font-family: Roboto;
+    font-size: 40px;
+    color: white;
+}
+
+.educationBack p{
+    font-family: Roboto;
+    color: #575c66;
+    font-size: 20px;
+}
+.educationBoxes{
+    border: 1.7px solid rgb(133, 76, 230);
+    border-radius: 10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.edcationBox1{
+    display: flex;
+    margin-top: -10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.avn-img{
+    height: 60px;
+    width: 80px;
+}
+
+.Txt-educ{
+    padding-left: 10px;
+}
+
+.Txt-educ h4{
+    color: rgba(242, 243, 244, 0.6);;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.Txt-educ h5{
+    color: rgba(177, 178, 179, 0.6);
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.Txt-educ h6{
+    color: rgba(177, 178, 179, 0.5);
+    font-family: Roboto;
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.grade{
+    font-family: Roboto;
+    font-weight: bold;
+    color: rgba(177, 178, 179, 0.6);
+    margin-top: -25px;
+    padding-left: 15px;
+}
+
+.educationBoxes p {
+    font-family: Roboto;
+    font-size: 10px;
+    color: rgba(242, 243, 244, 0.6);
+    margin-top: -15px;
+    padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .educationBack {
+        padding: 20px; /* Add padding for better spacing on mobile */
+        flex-direction: column; /* Ensure vertical stacking of content */
+        align-items: center; /* Center align content */
+    }
+
+    .educationBack h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center-align text */
+    }
+
+    .educationBack p {
+        font-size: 16px; /* Reduce font size for readability */
+        text-align: center; /* Center-align text */
+    }
+
+    .educationBoxes {
+        width: 90%; /* Make boxes fit within the screen */
+        margin: 15px 0; /* Add vertical spacing */
+    }
+
+    .edcationBox1 {
+        flex-direction: column; /* Stack content vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .avn-img {
+        height: 50px; /* Reduce image size */
+        width: 70px;
+        margin-bottom: 10px; /* Add spacing for stacked layout */
+    }
+
+    .Txt-educ {
+        padding-left: 0; /* Remove unnecessary padding */
+    }
+
+    .Txt-educ h4 {
+        font-size: 14px; /* Adjust font size */
+        text-align: left; /* Align text to the left */
+    }
+
+    .Txt-educ h5 {
+        font-size: 12px; /* Adjust font size */
+        margin-top: -10px; /* Adjust spacing */
+    }
+
+    .Txt-educ h6 {
+        font-size: 10px; /* Adjust font size */
+        margin-top: -10px; /* Adjust spacing */
+    }
+
+    .grade {
+        font-size: 12px; /* Adjust font size */
+        margin-top: -20px; /* Adjust spacing */
+        padding-left: 0; /* Remove unnecessary padding */
+    }
+
+    .educationBoxes p {
+        font-size: 10px; /* Ensure small size text is legible */
+        margin-top: -10px; /* Adjust spacing */
+        padding-left: 0; /* Remove unnecessary padding */
+    }
+}

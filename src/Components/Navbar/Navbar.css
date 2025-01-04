@@ -1,0 +1,42 @@
+.main{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .firstNav{
+    color: white;
+  }
+  
+  .ulsNav{
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .ulsNav li {
+    margin: 10px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+  }
+  
+  .btn{
+     padding: 30px;
+  }
+  
+  .btn button{
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: rgb(133, 76, 230);
+    color: rgb(133, 76, 230);
+    font-weight: bold;
+    border: 1.8px solid;
+    cursor: pointer;
+  }
+  
+  .linkLine{
+    text-decoration: none;
+  } 

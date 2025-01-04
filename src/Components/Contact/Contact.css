@@ -1,0 +1,85 @@
+.contactMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(black, #222a35);
+   
+}
+
+.contactback{
+    background-size: cover;
+    margin-top: -25px;
+}
+
+.contactback h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contactback p {
+    color: #575c66;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactBox{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: rgb(133, 76, 230) 2px 3px 4px 2px;
+}
+
+.contactBox h3{
+    color: white;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.contactBox button{
+    width: 80%;
+    align-items: center;
+    background-image: linear-gradient(rgb(132, 0, 255) 3%, rgb(230, 0, 255) 100%);
+    height: 50px;
+    width: 85%;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.InputBoxes{
+    background-color: transparent;
+    border: 1px solid rgb(133, 76, 230);
+    padding: 10px;
+    border-radius: 20px;
+    height: 30px;
+    width: 80%;
+    margin: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+}
+
+.areaBox{
+    border: 1px solid rgb(133, 76, 230);
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 80%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: Roboto;
+    color: white;
+}
+
