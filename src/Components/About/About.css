@@ -103,6 +103,11 @@
         margin-left: 35px;
     }
 
+    .firstPart{
+        margin-top: 10px;
+        order: 2;
+    }
+
     .profileImg {
         height: 250px; /* Reduce size for smaller screens */
         width: 250px;

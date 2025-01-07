@@ -86,7 +86,7 @@
     .ExperBox {
         width: 90%; /* Adjust width for smaller screens */
         padding: 10px; /* Reduce padding */
-        margin: 10px 0; /* Add vertical spacing */
+        margin-left: 40px;
     }
 
     .xml {
