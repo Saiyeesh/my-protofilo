@@ -60,6 +60,7 @@ body {
 
 .firstNav{
   color: white;
+  padding-left: 20px;
 }
 
 .btn{
@@ -118,8 +119,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-  .main {
-    flex-direction: row;
+  
+.main {
+    display: flex;
     justify-content: space-between;
     align-items: center;  
     padding: 10px;  
